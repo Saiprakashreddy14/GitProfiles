@@ -8,8 +8,8 @@ def home(request):
     return render(request,"home.html")
 
 
-username = "Saiprakashreddy14"
-token = "edba5897825e97a5868a4896164facf11c2e2525"
+username = "Use-your-username"
+token =    "generate-your-token"
 
 def results(request):
     query = request.GET['username']
